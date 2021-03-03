@@ -23,6 +23,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '-uhpfb-=5&l!s0h5sn8*(3a^slvqng24z7b$0yt!a8w+2*$m9#'
+#os.getenv('SECRET_KEY ', '123')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -38,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    #pegar css
     'django.contrib.staticfiles',
     #livraria
     'widget_tweaks',
@@ -140,11 +142,11 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 
 # Email configuration
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-DEFAULT_FROM_EMAIL = 'Rafael <admin@site.com>'
+DEFAULT_FROM_EMAIL = 'Rafael <admin@loja.com>'
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'rafaellima'
-EMAIL_HOST_PASSWORD = '@ada2018'
+EMAIL_HOST = 'smtp.gmail'
+EMAIL_HOST_USER = 'rafinhagamesnerd@gmail.com'
+EMAIL_HOST_PASSWORD = '@ada2021'
 EMAIL_PORT = 587
 
 try:

@@ -4,12 +4,17 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.core.mail import send_mail
 from django.conf import settings
-
+#posso fazer por classe exemplo index
+from django.views.generic import View, TemplateView
 
 from .form import ContactForm
+#classe chamamvel do index
+class IndexView(TemplateView):
+    #usando o template viem posso chamar assim
+    template_name = 'index.html'
 
-def index(request):
-    return render(request, 'index.html')
+
+index = IndexView.as_view()
 
 #teste
 def contact(request):

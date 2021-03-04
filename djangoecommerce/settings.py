@@ -149,6 +149,11 @@ EMAIL_HOST_USER = 'rafinhagamesnerd@gmail.com'
 EMAIL_HOST_PASSWORD = '@ada2021'
 EMAIL_PORT = 587
 
+# auth
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'index'
+LOGOUT_URL = 'logout'
+
 try:
     from .local_settings import *
 except ImportError:

@@ -1,13 +1,17 @@
 {% extends "base.html" %}
 
 {% block title %}
-    Inicio | {{ block.super }}
+Inicio | {{ block.super }}
 {% endblock %}
 
 {% block container %}
+
 <div class="jumbotron page-header">
   <h1>Mimos Modas Fashion</h1>
   <p>Sejam Bem Vindas!</p>
-  <p><a class="btn btn-primary" href="{% url 'catalog:product_list' %}">Ir para Destaques</a></p>
+  <p><a class="btn btn-primary" href="{% url 'catalog:product_list' %}">Ir para Destaques</a> <button type="button" class="btn btn-primary">
+    <span class="glyphicon glyphicon-thumbs-up"></span> Like
+  </button></p>
+
 </div>
 {% endblock %}

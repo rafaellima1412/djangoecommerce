@@ -3887,7 +3887,7 @@ tbody.collapse.in {
 }
 
 .dropdown-menu>.disabled>a, .dropdown-menu>.disabled>a:hover, .dropdown-menu>.disabled>a:focus {
-  color: #b4bcc2
+  color: #e0aaff
 }
 
 .dropdown-menu>.disabled>a:hover, .dropdown-menu>.disabled>a:focus {
@@ -4879,7 +4879,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 
 .navbar-default {
-  background-color: #2c3e50;
+  background-color: #7b2cbf;
   border-color: transparent
 }
 

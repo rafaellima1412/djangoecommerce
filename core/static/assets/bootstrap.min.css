@@ -5365,7 +5365,7 @@ a.badge:hover, a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #ecf0f1
+  background-color: #e31224;
 }
 
 .jumbotron h1, .jumbotron .h1 {
@@ -5379,7 +5379,7 @@ a.badge:hover, a.badge:focus {
 }
 
 .jumbotron>hr {
-  border-top-color: #cfd9db
+  border-top-color: #f1ecf0
 }
 
 .container .jumbotron, .container-fluid .jumbotron {
